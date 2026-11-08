@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport", content="width=device-width, initial-scale=1.0">
+        <title>MyCountry</title>
+        <style>
+            body{
+                background-color: lightgreen;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 100vh;
+                padding: 40px 20px;
+            }
+            .page-container{
+                display: flex;
+                gap: 30px;
+                width: 100%;
+                max-width: 1000px;
+                align-items: center;
+               
+               
+            }
+            .left-panel{
+                flex: 1.2;
+                display: flex;
+                flex-direction: column;
+                gap: 17px;
+            }
+            .right-panel{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+
+            }
+            .above{
+                color: darkgreen;
+                font-size: 2.2rem;
+                font-weight: 800;
+                letter-spacing: 1px;
+                margin: 0 0 10px 0;
+            }
+            .cards{
+                display: block;
+                border-radius: 18px;
+                padding: 20px 25px;
+                color: darkgreen;
+                text-decoration: none;
+                background-color: azure;
+            }
+            .cards:hover{
+                transform: translateY(-3px);
+                box-shadow: aqua;
+            }
+            .cards-title{
+                font-size: 1.3rem;
+                font-weight: bold;
+                margin:0;
+            }
+            .rectangle-avatar{
+                width:250px;
+                height: 250px;
+                border-radius: 20%;
+                object-fit: cover;
+                margin-bottom: 20px;
+           }
+           .mulk{
+             color: darkgreen;
+             font-size: 2rem;
+             font-weight: bold;
+             margin: 0;
+             letter-spacing: 1px;
+           }
+        </style>
+    </head>
+    <body>
+        <div  class="page-container">
+        <div  class="left-panel">
+            <h2 class="above">MY COUNTRY</h2>
+            <a href="intro.html"  class="cards">
+                <h3 class="cards-title">Introduction & Little bit of history</h3>
+            </a>
+            <a href="national.html" class="cards">
+                <h3 class="cards-title">National symbols</h3>
+            </a>
+        </div>
+        <div class="right-panel">
+            <img src="pak.png" class="rectangle-avatar">
+            <h2 class="mulk">PAKISTAN</h2>
+        </div>
+        </div>
+    </body>
+        
+
+</html>
